@@ -10,6 +10,7 @@ function App() {
   
   const fetchTours = async () => {
     setLoading(true)
+    const response = await fetch(url)
   }
   
   
