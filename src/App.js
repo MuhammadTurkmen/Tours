@@ -40,7 +40,7 @@ function App() {
     </main>
   }
   return <main>
-    <Tours tours={tours} />
+    <Tours tours={tours} removeTour={removeTour} />
   </main>
 }
 
