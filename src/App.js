@@ -39,6 +39,9 @@ function App() {
       <Loading />
     </main>
   }
+  if(tours.length === 0 ) {
+    
+  }
   return <main>
     <Tours tours={tours} removeTour={removeTour} />
   </main>
