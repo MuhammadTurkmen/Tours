@@ -9,7 +9,7 @@ function App() {
   const [tours, setTours] = useState([])
   
   const fetchTours = async () => {
-    
+    setLoading(true)
   }
   
   
