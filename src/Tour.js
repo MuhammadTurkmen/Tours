@@ -12,7 +12,9 @@ const Tour = ({id, image, info, price, name}) => {
       <p>
         {info}
       </p>
-      <button className='delete-btn'></button>
+      <button className='delete-btn'>
+        not interested
+      </button>
     </footer>
   </article>
 };
