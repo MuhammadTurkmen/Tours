@@ -12,7 +12,9 @@ function App() {
       <Loading />
     </main>
   }
-  return <main></main>
+  return <main>
+    <Tours />
+  </main>
 }
 
 export default App 
