@@ -10,7 +10,7 @@ function App() {
   
 
   const removeTour = (id) => {
-    
+    const newTours = tours.filter((tour) => tour.id !== id)
   } 
 
 
