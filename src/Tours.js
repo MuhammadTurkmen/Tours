@@ -7,7 +7,9 @@ const Tours = ({tours}) => {
       <div className="underline"></div>
     </div>
     <div>
-      {tours.map((tour) => {})}
+      {tours.map((tour) => {
+        return <Tour key={}/>
+      })}
     </div>
   </section>;
 };
