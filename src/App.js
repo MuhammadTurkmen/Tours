@@ -12,7 +12,7 @@ function App() {
       <Loading />
     </main>
   }
-  return <h2>Tours Project Setup</h2>
+  return <main></main>
 }
 
 export default App 
