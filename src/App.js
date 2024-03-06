@@ -8,7 +8,9 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [tours, setTours] = useState([])
   if(loading) {
-    
+    return <main>
+      <Loading />
+    </main>
   }
   return <h2>Tours Project Setup</h2>
 }
