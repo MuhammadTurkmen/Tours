@@ -8,6 +8,12 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [tours, setTours] = useState([])
   
+
+  const removeTour = (id) => {
+    
+  } 
+
+
   const fetchTours = async () => {
     setLoading(true)
 
