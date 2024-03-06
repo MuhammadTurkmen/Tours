@@ -49,7 +49,7 @@ function App() {
       </div>
     </main>
   }
-  return <main>
+  return <main> 
     <Tours tours={tours} removeTour={removeTour} />
   </main>
 }
